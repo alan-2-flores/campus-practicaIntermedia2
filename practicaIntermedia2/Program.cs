@@ -71,8 +71,11 @@ namespace practicaIntermedia2
             stopwatch.Stop();
             Console.WriteLine($"tiempo de ordenamiento Diccionario: {stopwatch.ElapsedMilliseconds} ms {ordenados[0]}");
 
+            Console.ReadKey();
 
-
+            //Parte 4
+            Palindromo palindromo = new Palindromo();
+            Console.WriteLine($"Es palindromo: {palindromo.EsPalindromo("Otto")}");
             Console.ReadKey();
         }
     }
